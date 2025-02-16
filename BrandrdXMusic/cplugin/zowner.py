@@ -35,13 +35,13 @@ from BrandrdXMusic.utils.database import get_assistant, is_active_chat
 @Client.on_message(filters.command("repo") & filters.group)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/cc290ee58069d09a1ade7.jpg",
+        photo=f"https://graph.org/file/b439f688e8978b9e3f388-358c128986f29a67b1.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/learningbots79"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/Mrshubh_1227"
                     )
                 ]
             ]
@@ -53,13 +53,13 @@ async def repo(client: Client, message: Message):
 async def help(client: Client, message: Message):
 
     await message.reply_photo(
-        photo=f"https://graph.org/file/cc290ee58069d09a1ade7.jpg",
+        photo=f"https://graph.org/file/b439f688e8978b9e3f388-358c128986f29a67b1.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/learningbots79"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/Mrshubh_1227"
                     )
                 ]
             ]
@@ -70,13 +70,13 @@ async def help(client: Client, message: Message):
 @Client.on_message(filters.command("repo") & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-         photo=f"https://graph.org/file/cc290ee58069d09a1ade7.jpg",
+         photo=f"https://graph.org/file/b439f688e8978b9e3f388-358c128986f29a67b1.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/learningbots79"
+                        "🌱 𝐒𝐎𝐔𝐑𝐂𝐄 🌱", url=f"https://t.me/Mrshubh_1227"
                     )
                 ]
             ]
@@ -125,7 +125,7 @@ async def add_all(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
 
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1002198719573:
+            if dialog.chat.id == -1002415277769:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
