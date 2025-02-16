@@ -71,10 +71,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("moviedownloadsandwatch")
+                await self.one.join_chat("secretchamber1227")
+                await self.one.join_chat("Mrshubh_1227")
+                await self.one.join_chat("Seethistoknow")
 
             except:
                 pass
@@ -101,10 +101,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("Moviedownloadsandwatch")
+                await self.one.join_chat("secretchamber1227")
+                await self.one.join_chat("Mrshubh_1227")
+                await self.one.join_chat("seethistoknow")
             except:
                 pass
             assistants.append(2)
@@ -125,10 +125,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("Moviedownloadsandwatch")
+                await self.one.join_chat("secretchamber1227")
+                await self.one.join_chat("Mrshubh_1227")
+                await self.one.join_chat("seethistoknow")
             except:
                 pass
             assistants.append(3)
@@ -148,10 +148,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("Moviedownloadsandwatch")
+                await self.one.join_chat("secretchamber1227")
+                await self.one.join_chat("Mrshubh_1227")
+                await self.one.join_chat("seethistoknow")
             except:
                 pass
             assistants.append(4)
@@ -171,10 +171,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("Moviedownloadsandwatch")
+                await self.one.join_chat("secretchamber1227")
+                await self.one.join_chat("Mrshubh_1227")
+                await self.one.join_chat("seethistoknow")
             except:
                 pass
             assistants.append(5)
